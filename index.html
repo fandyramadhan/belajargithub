@@ -1,9 +1,413 @@
-<html>
-<head>
-	<title>Belajar Github </title>
-</head>
-<body>
-<h1> Oaja ya kan? </h1>
-lalallala
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/logo.png">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:400,500,700|Raleway:400,500,600,700&display=swap&subset=latin-ext" rel="stylesheet">
+
+
+    <!-- icon -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- selectpicker -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+
+    <title>IndoJob</title>
+  </head>
+  <body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="assets/img/indojob_logo.webp" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto py-4 py-md-0">
+                <li class="nav-item dropdown pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Cari Pekerjaan
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">IT and Engineer</a>
+                        <a class="dropdown-item" href="#">Design</a>
+                        <a class="dropdown-item" href="#">Writer</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Lihat Semua</a>
+                    </div>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                <a class="nav-link" href="#">Pasang Lowongan</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Headhunter</a>
+                </li>
+                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                    <a class="nav-link" href="#">Tips</a>
+                </li>
+            </ul>
+            <div class="my-2 my-lg-0">
+                <a href="login.html" class="btn btn-outline-warning m-2"> LOGIN</a>
+                <a href="registrasi.html" class="btn btn-primary m-2"> DAFTAR</a>
+            </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header search -->
+    <div class="bg-header">
+        <div class="container">
+            <div class="caption-header text-center">
+              <h2 class="text-warning">3.056 <span class="text-white"> Lowongan Pekerjaan </span></h2>
+              <h2 class="text-warning">1.490 <span class="text-white"> Perusahaan </span></h2>
+              <h1 class="text-white my-5"> Cari Lowongan Pekerjaan </h1>
+              <form action="">
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <input type="text" class="form-control form-control-lg" placeholder="Cari posisi atau perusahaan">
+                  </div>
+                  <div class="col-md-4 mb-3">
+                    <select class="form-control form-control-lg selectpicker" data-live-search="true" id="exampleFormControlSelect1">
+                      <option>Lokasi</option>
+                      <option>Jakarta</option>
+                      <option>Depok</option>
+                      <option>Bogor</option>
+                      <option>Bandung</option>
+                    </select>
+                  </div>
+                  <div class="col-md-2">
+                    <button class="btn btn-primary btn-block btn-lg"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- popular -->
+    <div class="container">
+      <div class="py-5">
+        <div class="text-center">
+          <h3>Lowongan Terpopuler</h3>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-3 hover-top">
+            <a href="" class="text-decoration-none">
+              <div class="box-popular m-3 text-center">
+                <i class="fas fa-laptop-code"></i>
+                <h6 class="text-dark">Information and Technology</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 hover-top">
+            <a href="" class="text-decoration-none">
+              <div class="box-popular m-3 text-center">
+                <i class="fas fa-pen-nib"></i>
+                <h6 class="text-dark">Design and Art</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 hover-top">
+            <a href="" class="text-decoration-none">
+              <div class="box-popular m-3 text-center">
+                <i class="fas fa-wallet"></i>
+                <h6 class="text-dark">Finance</h6>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 hover-top">
+            <a href="" class="text-decoration-none">
+              <div class="box-popular m-3 text-center">
+                <i class="far fa-edit"></i>
+                <h6 class="text-dark">Content Writer</h6>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section list -->
+    <div class="bg-light py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="bg-white p-3 rounded">
+              <h3>Rekomendasi Lowongan</h3>
+              <div class="mt-5">
+                <a href="" class="text-decoration-none">
+                  <div class="row hover-bg">
+                    <div class="col-4">
+                      <img src="assets/img/logo/logo-1.png" class="w-100 rounded" alt="">
+                    </div>
+                    <div class="col-8 pt-2 text-dark">
+                      <h6>Traveloka</h6>
+                      <p><span class="text-primary font-weight-bolder">Fullstack Developer</span>, Sallary Rp 5.000.000 - Rp 10.000.000</p>
+                    </div>
+                  </div>
+                </a>
+                <hr/>
+                <a href="" class="text-decoration-none">
+                <div class="row hover-bg">
+                  <div class="col-4">
+                    <img src="assets/img/logo/logo-2.jpg" class="w-100 rounded" alt="">
+                  </div>
+                  <div class="col-8 pt-2 text-dark">
+                    <h6>Bukalapak</h6>
+                    <p><span class="text-primary font-weight-bolder">Fullstack Developer</span>, Sallary Rp 5.000.000 - Rp 10.000.000</p>
+                  </div>
+                </div>
+                </a>
+                <hr/>
+                <a href="" class="text-decoration-none">
+                <div class="row hover-bg">
+                  <div class="col-4">
+                    <img src="assets/img/logo/logo-3.jpg" class="w-100 rounded" alt="">
+                  </div>
+                  <div class="col-8 pt-2 text-dark">
+                    <h6>Gojek Indonesia</h6>
+                    <p><span class="text-primary font-weight-bolder">Fullstack Developer</span>, Sallary Rp 5.000.000 - Rp 10.000.000</p>
+                  </div>
+                </div>
+                </a>
+                <hr/>
+                <a href="" class="text-decoration-none">
+                <div class="row hover-bg">
+                  <div class="col-4">
+                    <img src="assets/img/logo/logo-4.png" class="w-100 rounded" alt="">
+                  </div>
+                  <div class="col-8 pt-2 text-dark">
+                    <h6>Bridge Inc</h6>
+                    <p><span class="text-primary font-weight-bolder">Fullstack Developer</span>, Sallary Rp 5.000.000 - Rp 10.000.000</p>
+                  </div>
+                </div>
+                </a>
+                <hr/>
+                <a href="" class="text-decoration-none">
+                <div class="row hover-bg">
+                  <div class="col-4">
+                    <img src="assets/img/logo/logo-5.jpg" class="w-100 rounded" alt="">
+                  </div>
+                  <div class="col-8 pt-2 text-dark">
+                    <h6>Tokopedia</h6>
+                    <p><span class="text-primary font-weight-bolder">Fullstack Developer</span>, Sallary Rp 5.000.000 - Rp 10.000.000</p>
+                  </div>
+                </div>
+                </a>
+                <hr/>
+                <div class="text-center">
+                  <a href="" class="text-dark text-decoration-none"> Lihat Semua <i class="fa fa-chevron-down"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="bg-white p-3 rounded">
+              <h3>Kategori</h3>
+              <div class="list mt-5">
+                <a href="" class="btn btn-outline-warning btn-block my-3">IT and Engineer</a>
+                <a href="" class="btn btn-outline-warning btn-block my-3">Design</a>
+                <a href="" class="btn btn-outline-warning btn-block my-3">Writer</a>
+                <a href="" class="btn btn-outline-warning btn-block my-3">Finance</a>
+                <a href="" class="btn btn-outline-warning btn-block my-3">Project</a>
+                <a href="" class="btn btn-outline-warning btn-block my-3">Lihat Semua</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- section regis -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 px-0">
+          <div class="bg-image-blue text-white text-center text-md-left">
+            <h1>Pencari Kerja</h1>
+            <h5>Lengkapi data diri Anda untuk memudahkan dalam mencari pekerjaan </h5>
+            <a href="registrasi.html" class="btn btn-outline-light mt-3 w-25"> Daftar </a>
+          </div>
+        </div>
+        <div class="col-md-6 px-0">
+          <div class="bg-image-yellow text-white text-center text-md-left">
+            <h1>Pemberi Kerja</h1>
+            <h5>Pasang iklan lowongan pekerjaan dengan mendaftarkan perusahaan Anda</h5>
+            <a href="registrasi.html" class="btn btn-outline-light mt-3 w-25"> Daftar </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- how to work -->
+    <div class="container">
+      <div class="py-5">
+        <div class="text-center">
+          <h3>Cara Kerja</h3>
+        </div>
+        <div class="mt-3">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="p-3">
+                <div class="rounded-icon">
+                  <i class="far fa-sticky-note"></i>
+                </div>
+                <h6 class="my-3 text-center">Mendaftar sebagai pencari kerja</h6>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3">
+                <div class="rounded-icon">
+                  <i class="fab fa-searchengin"></i>
+                </div>
+                <h6 class="my-3 text-center">Mencari pekerjaan sesuai dengan keahlian</h6>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="p-3">
+                <div class="rounded-icon">
+                  <i class="fas fa-check"></i>
+                </div>
+                <h6 class="my-3 text-center">Kirim Lamaran dan
+                  tunggu respon dari 
+                  pemberi kerja</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tips -->
+    <div class="bg-light py-5">
+      <div class="container">
+        <div class="text-center">
+          <h3>Tips</h3>
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="assets/img/img-1.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Pertanyaan Interview</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque error distinctio quos facilis cum. ..</p>
+                <a href="" class="text-decoration-none text-primary"> Selengkapnya <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="assets/img/img-2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Test Psikotes</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque error distinctio quos facilis cum. ..</p>
+                <a href="" class="text-decoration-none text-primary"> Selengkapnya <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-5">
+            <div class="card">
+              <img src="assets/img/img-3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5>Relax Bekerja</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum neque error distinctio quos facilis cum. ..</p>
+                <a href="" class="text-decoration-none text-primary"> Selengkapnya <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="" class="btn btn-primary">Lihat Semua</a>
+        </div>
+      </div>
+    </div>
+    
+
+  <!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3">
+          <h6>Tentang Kami</h6>
+          <p>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Tentang IndoJob</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none">Bergabung dengan kami</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none">Hubungi Kami</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none">Site map</a>
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Pilihan</h6>
+          <p>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none">Pencari Kerja</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none">Pemberi Kerja</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none">Headhunter</a>
+              </li>
+            </ul>
+          </p>
+        </div>
+        <div class="col-md-4 mb-3">
+          <h6>Ikuti Kami</h6>
+          
+          <ul class="list-inline mt-3">
+            <li class="list-inline-item">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa fa-google-plus"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#" class="text-warning text-decoration-none"><i class="fa fa-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr style="border: 1px solid #F2C94C;">
+      <div class="text-center">
+        <span>2020 | indojob.co.id</span>
+      </div>
+    </div>
+    
+  </div>
+
+
+    <!-- Optional JavaScript -->
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+    
+  </body>
 </html>
